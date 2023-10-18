@@ -1,5 +1,3 @@
-'use strict';
-
 function getDefaultExportFromCjs (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
 }
@@ -2842,6 +2840,5 @@ const Button2 = (props) => {
     return React.createElement("button", { className: "button-2" }, props.label);
 };
 
-exports.Button = Button;
-exports.Button2 = Button2;
+export { Button, Button2 };
 //# sourceMappingURL=index.js.map
