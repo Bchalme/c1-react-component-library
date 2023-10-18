@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Button from './Button';
+import Button from './Button2';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta = {
-  title: 'ReactComponentLibrary/Button',
+  title: 'ReactComponentLibrary/Button2',
   component: Button,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
@@ -28,6 +28,6 @@ export const HelloWorld: Story = {
 
 export const ClickMe: Story = {
   args: {
-    label: 'Click me!',
+    label: 'Click M3!',
   },
 };

@@ -2828,12 +2828,20 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "button {\n    font-size: 68px;\n}";
-styleInject(css_248z);
+var css_248z$1 = ".button-1 {\n    cursor:pointer;\n    font-size: 18px;\n    background-color: #6941C6;\n    padding: 16px 24px;\n    color: #ffffff;\n    border: none;\n    outline: none;\n}\n\n.button-1:hover {\n    background-color: #6941C6;\n    opacity: 0.9;\n}\n\n.button-1:active {\n    background-color: #6941C6;\n    opacity: 1;\n}";
+styleInject(css_248z$1);
 
 const Button = (props) => {
-    return React.createElement("button", null, props.label);
+    return React.createElement("button", { className: "button-1" }, props.label);
+};
+
+var css_248z = ".button-2 {\n    cursor:pointer;\n    font-size: 18px;\n    background-color: #1e1e1e;\n    padding: 16px 24px;\n    color: #ffffff;\n    border: none;\n    outline: none;\n}\n\n.button-2:hover {\n    background-color: #1e1e1e;\n    opacity: 0.9;\n}\n\n.button-2:active {\n    background-color: #1e1e1e;\n    opacity: 1;\n}";
+styleInject(css_248z);
+
+const Button2 = (props) => {
+    return React.createElement("button", { className: "button-2" }, props.label);
 };
 
 exports.Button = Button;
+exports.Button2 = Button2;
 //# sourceMappingURL=index.js.map
